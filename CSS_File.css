@@ -1,0 +1,23 @@
+/* CSS Document */
+body                {
+                        background-color        : rgb(0,0,0);
+                    }
+.HeadingDiv         {
+                        background-color        : transparent;
+                        color                   : rgb(255, 255, 255);
+                        border-bottom           : solid 1px;
+                        padding-bottom          : 0px;
+                        height                  : fit-content;
+                    }
+h1                  {
+                        height                  : 100%;
+                        margin-top              : 0px;
+                        text-align              : center;
+                        padding-top             : 10px;
+                        padding-bottom          : -10px; 
+                    }
+.BodyDiv            {
+                        background-color        : transparent;
+                        color                   : white;
+                       /* border                  : solid 1px;*/
+                    }
