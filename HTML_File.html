@@ -12,6 +12,8 @@
 
     <body>
 
+        <script src="JavaScript_File.js" type="text/javascript"></script>
+
         <div class="HeadingDiv">
 
             <div id="AppLogo">
@@ -30,21 +32,15 @@
 
                 <div class="CenterPiece">
 
-                    <fieldset id="CenterField">
-
                         <label for="UserName"> 
-                            <input type="text" id="UserName" placeholder="User email"/>
+                            <input type="text" id="UserName" placeholder="User email" required />
                         </label>
 
                         <label for="UserPassword"> 
-                            <input type="password" id="UserPassword" placeholder="Password"/>
+                            <input type="password" id="UserPassword" placeholder="Password" required/>
                         </label>
 
-                        <label>
-                            <button type="submit" id="SubmitButton">Submit</button>
-                        </label>
-
-                    </fieldset>
+                            <button type="submit" id="SubmitButton" onclick="myFunc()">Submit</button>
 
                 </div>
 
