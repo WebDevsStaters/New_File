@@ -1,23 +1,72 @@
-/* CSS Document */
+0/* CSS Document */
 body                {
-                        background-color        : rgb(0,0,0);
+                        background-color        : beige;
+                        height                  : fit-content; 
                     }
 .HeadingDiv         {
                         background-color        : transparent;
-                        color                   : rgb(255, 255, 255);
-                        border-bottom           : solid 1px;
-                        padding-bottom          : 0px;
-                        height                  : fit-content;
-                    }
-h1                  {
-                        height                  : 100%;
-                        margin-top              : 0px;
+                        color                   : black;
                         text-align              : center;
-                        padding-top             : 10px;
-                        padding-bottom          : -10px; 
+                        font-family             : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        border-radius           : 10px  
+                    }
+#AppName            { 
+                        font-size               : 25px;
+                        margin                  : -30px 10px;
+                    }
+#AppLogo            { 
+                    }
+#AppLogo, #AppName  {
+                        display                 : inline-block; 
                     }
 .BodyDiv            {
                         background-color        : transparent;
-                        color                   : white;
-                       /* border                  : solid 1px;*/
+                        color                   : aliceblue;
+                        border-top              : groove 1px;
+                        border-color            : black; 
                     }
+.CenterPiece        {
+                        align-items:            : center;
+                    }
+#CenterField        {
+                        height                  : 300px;
+                        width                   : 200px;
+                        margin                  : 20% ; 
+                        border                  : hidden;
+                        color                   :brown ;
+                    }
+#UserName           {
+                        height                  : 35px;
+                        width                   : 200px;
+                        margin-top              : 50%; 
+                        margin-bottom           : 10px; 
+                        text-align              : center;
+                        border-radius           : 6px;
+                        border                  : hidden;
+                        border-block-end        : solid 2px; 
+                        border-block-end-color  :  rgba(100,100,200, 30%); 
+                        background-color        : rgba(180,100,100,10%);
+                    }
+#UserPassword       {
+                        height                  : 35px;
+                        width                   : 200px; 
+                        margin-bottom           : 5px;
+                        text-align              : center; 
+                        border-radius           : 6px; 
+                        border                  : hidden;
+                        border-block-end        : solid 2px; 
+                        border-block-end-color  : rgba(100,100,200, 30%);
+                        background-color        : rgba(180,100,100,10%);
+                    }
+#SubmitButton       {
+                        align-self              : center; 
+                        height                  : 35px; 
+                        width                   : 100px; 
+                        border                  : hidden;
+                        border-block-end        : solid 2px;
+                        border-block-end-color  : rgba(0,100,127,20%); 
+                        border-radius           : 60px;
+                        margin-top              : 20%;  
+                        background-color        : rgba(50,200,205, 20%);
+                    }
+
